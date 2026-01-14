@@ -1,0 +1,37 @@
+/* Styling based on guidelines from https://brand.colostate.edu/color/ and is all AAA compliant */
+
+/* Global font and base styling */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  color: #105456; /* Stalwart Slate */
+}
+
+code {
+  font-family: monospace;
+}
+
+/* Font weight utility classes */
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+*:focus {
+  outline: 2px solid #1E4D2B; /* CSU Green */
+  outline-offset: 2px;
+}
